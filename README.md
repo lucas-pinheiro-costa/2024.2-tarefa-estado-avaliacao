@@ -6,6 +6,7 @@
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
 - disciplina: **SO** Sistemas Operacionais, turma de 2024.2
 - professor: [Leonardo A. Minora](https://github.com/leonardo-minora)
+- aluno: [Lucas Pinheiro da Costa](https://github.com/lucas-pinheiro-costa)
 
 ## Descrição inicial da tarefa
 
@@ -65,7 +66,7 @@ por fim, considere a tabela abaixo:
 | 04   | ex    | --         | pr         | no         | t1, t2     |
 | 05   | ex t1 | --         | --         | pr         | t2, t3     |
 | 06   | --    | ex linha 1 | --         | --         | t2, t3     |
-| 07   | ex t2 | su 1       | --         | --         | t2, t3     |
+| 07   | ex t2 | su 1       | --         | --         | t3         |
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
@@ -84,12 +85,19 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 04   | ex    | --         | pr         | no         | t1, t2     |
 | 05   | ex t1 | --         | --         | pr         | t2, t3     |
 | 06   | --    | ex linha 1 | --         | --         | t2, t3     |
-| 07   | ex t2 | su 1       | --         | --         | t2, t3     |
+| 07   | ex t2 | su 1       | --         | --         | t3         |
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex t1 | --         | pr         | su 1       | t2         |
+| 12   | --    | ex linha 3 | --         | pr         | t2, t3     |
+| 13   | ex t2 | su 1       | --         | --         | t2, t3     |
+| 14   | --    | pr         | ex linha 3 | --         | t1, t3     |
+| 15   | ex t3 | --         | su 1       | --         | t1         |
+| 16   | --    |  |  |  |  |
+| 17   |  |  |  |  |  |
+| 18   |  |  |  |  |  |
+| 19   |  |  |  |  |  |
 
 ## Tarefa 2 - fatia tempo com valor 10 ticks
 
